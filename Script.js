@@ -51,8 +51,7 @@
 		var operators = ['+','-','*','/'];
 		return operators.some(function(operator){
 			return operator == $input.value.split('').pop();
-		})
-;
+		});
 	}
 	function isValueZero(){
 		if($input.value == '0')
